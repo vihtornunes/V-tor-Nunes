@@ -1,0 +1,43 @@
+.section-project {
+    width: 100%;
+    height: 100vh;
+
+    h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 26px;
+        font-weight: 200;
+        color: #EDF1D6;
+        margin-bottom: 52px;
+    }
+}
+
+.content-project {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 64px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grid-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+
+
+    p {
+        color: white;
+        font-size: 14px;
+        font-weight: 200;
+        padding-top: 22px
+    };
+}

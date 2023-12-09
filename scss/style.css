@@ -1,0 +1,324 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600&family=Poppins:wght@100;200;300;400;500&family=Roboto+Mono:wght@200;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Work+Sans:wght@200;300;400;600&display=swap");
+header {
+  width: 100%;
+}
+
+.content-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 0 14px 0;
+  overflow: hidden;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.842);
+  top: 0;
+  width: 100%;
+  height: 90px;
+  z-index: 1;
+}
+.content-header img {
+  width: 240px;
+  margin-right: 100px;
+}
+.content-header ul {
+  display: flex;
+  gap: 24px;
+}
+.content-header li {
+  text-decoration: none;
+  list-style: none;
+  padding: 12px;
+}
+.content-header a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #EDF1D6;
+}
+.content-header a:hover {
+  color: #609966;
+  transition: 0.4s;
+}
+
+.container-main {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  padding: 80px 40px 80px 40px;
+}
+.container-main .content-main {
+  display: flex;
+}
+.container-main .content-main .content-person {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin-left: 86px;
+}
+.container-main .content-main .content-person h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  padding-top: 14px;
+  color: #609966;
+}
+.container-main .content-main .content-person p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 90%;
+  text-align: start;
+  letter-spacing: 1px;
+  line-height: 22px;
+  font-size: 16px;
+  font-weight: 200;
+  color: #EDF1D6;
+}
+.container-main .content-main .img-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.container-main .content-main .img-right img {
+  width: 350px;
+}
+
+.container-tech {
+  width: 100%;
+  height: 500px;
+}
+.container-tech h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 200;
+  color: #EDF1D6;
+  margin-top: 102px;
+  margin-bottom: 52px;
+}
+.container-tech .content-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 14px;
+}
+.container-tech .content-icons :hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 240px;
+  background-color: #4d7a51;
+  margin-left: 44px;
+  border-radius: 10px;
+  margin-top: 36px;
+}
+.card img {
+  width: 90px;
+}
+.card h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 200;
+  color: #eff0e9;
+  padding-top: 18px;
+}
+
+.section-project {
+  width: 100%;
+  height: 100vh;
+}
+.section-project h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 200;
+  color: #EDF1D6;
+  margin-bottom: 52px;
+}
+
+.content-project {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 64px;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.grid-card p {
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+  padding-top: 22px;
+}
+
+.container-footer {
+  width: 100%;
+  height: 300px;
+  margin-top: 190px;
+}
+.container-footer h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 200;
+  color: #EDF1D6;
+  margin-bottom: 72px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 50%;
+  gap: 96px;
+}
+.links .card-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.links img {
+  width: 80px;
+  height: 80px;
+}
+.links p {
+  margin-top: 18px;
+  font-size: 16px;
+  font-weight: 200;
+  color: #EDF1D6;
+  display: inline-block;
+  animation: girarTExto 4s linear infinite;
+}
+@keyframes girarTExto {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(8%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.637);
+}
+main img {
+  width: 300px;
+  margin-bottom: 60px;
+}
+main h1 {
+  font-size: 38px;
+  color: #EDF1D6;
+  font-weight: 200;
+  margin-bottom: 60px;
+  position: relative;
+  animation: fall 1.5s ease-in-out forwards;
+}
+@keyframes fall {
+  0% {
+    transform: translateY(-10vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+main h1 .blinking-dot {
+  display: inline-block;
+  animation: blink 1s infinite;
+}
+main p {
+  font-size: 24px;
+  margin: 20px;
+  color: #4d7a51;
+}
+main a {
+  font-size: 18px;
+  font-weight: 200;
+  color: #EDF1D6;
+  text-decoration: none;
+  padding: 16px 60px;
+  border-radius: 10px;
+  background-color: rgba(77, 122, 81, 0.062745098);
+  margin-top: 18px;
+}
+main a:hover {
+  background-color: #234125;
+  transition: 1s;
+}
+
+#video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monoespaçado;
+  background-image: url(/image/samuel-scalzo-xyuYk9oLA8I-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-color 0.5s ease-in-out;
+}/*# sourceMappingURL=style.css.map */
