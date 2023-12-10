@@ -1,125 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./scss/style.css">
-    <title>Vitor Nunes</title>
+    <link rel="stylesheet" href="scss/style.css">
+    <title>Vítor Nunes</title>
 </head>
-
 <body>
-    <header class="container-header">
-        <div class="content-header">
-            <img src="./image/vitornunes-logo-removebg-preview.png" alt="Logo">
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </div>
-    </header>
-
-
-
-    <main id="sobre" class="container-main">
-
-        <div class="content-main">
-
-            <div class="content-person">
-                <h1>Conheça mais sobre:</h1>
-                <p>Olá, sou Vitor Nunes, um entusiasta de 29 anos em São Paulo, atualmente no terceiro semestre em
-                    Análise e Desenvolvimento de Sistemas, com ênfase em Front-End.
-                    Minha paixão é criar experiências visuais envolventes. Estou comprometido em aprimorar minha
-                    habilidade de transformar conceitos em interfaces dinâmicas e responsivas.
-                    Meu objetivo é contribuir para o cenário tecnológico, tornando a web mais atraente e funcional.</p>
-            </div>
-
-            <div class="img-right">
-                <img src="/image/uriel-soberanes-MxVkWPiJALs-unsplash-removebg-preview (1).png" alt="">
-            </div>
-
-        </div>
-
+    <main class="content-principal">
+        <video autoplay muted loop id="video-background">
+            <source src="./video/video (2160p) (1).mp4">
+        </video>
+        <img src="./image/vitornunes-logo-removebg-preview.png" alt="">
+        <h1>Bem vindo ao meu Portfólio<span class="blinking-dot">.</span></h1>
+        
+        <a href="./index.html" class="smooth-transition">Clique para entrar</a>
     </main>
 
-    <section id="habilidades" class="container-tech">
-        <h1>Tecnologias e Habilidades</h1>
-        <div class="content-icons">
-            <div class="card">
-                <img src="./image/file_type_html_icon_130541.ico" alt="html">
-                <h1>Html (Intermediário)</h1>
-            </div>
-            <div class="card">
-                <img src="./image/file_type_css_icon_130661.ico" alt="html">
-                <h1>Css (Intermediário)</h1>
-            </div>
-            <div class="card">
-                <img src="./image/javascript_icon_130900.ico" alt="html">
-                <h1>javascript (Básico)</h1>
-            </div>
-            <div class="card">
-                <img src="./image/file_type_sass_icon_130182.ico" alt="html">
-                <h1>Sass (Básico)</h1>
-            </div>
-            <div class="card">
-                <img src="./image/github_original_wordmark_logo_icon_146506.ico" alt="github">
-                <h1>Git (Básico)</h1>
-            </div>
-        </div>
-    </section>
 
-    <section id="projetos" class="section-project">
-            <h1>Projetos</h1>
-        <div class="content-project">
-            <div class="grid-card">
-                <video id="meuVideo" width="400" height="260" controls>
-                    <source src="./video/scrnli_12_11_2023_18-40-52.webm" type="video/webm">
-                </video>
-                <p>Site de Serviços Automotivos</p>
-            </div>
-            <div class="grid-card">
-                <video id="meuVideo" width="400" height="260" controls>
-                    <source src="./video/scrnli_12_11_2023_18-43-25.webm" type="video/webm">
-                </video>
-                <p>Site Cafeteria</p>
-            </div>
-            <div class="grid-card">
-                <video id="meuVideo" width="400" height="260" controls>
-                    <source src="./video/scrnli_12_11_2023_18-44-40.webm" type="video/webm">
-                </video>
-                <p>Site Barbearia</p>
-            </div>
-            <div class="grid-card">
-                <video id="meuVideo" width="400" height="260" controls>
-                    <source src="./video/scrnli_12_11_2023_18-47-08.webm" type="video/webm">
-                </video>
-                <p>Site Contabilidade (Responsivo)</p>
-            </div>
-        </div>
-        </section>
+    <script src="./script.js"></script>
 
-        <footer id="contato" class="container-footer">
-            <h1>Contato</h1>
-                <div class="links">
-                    <div class="card-link">
-                        <a href="https://www.linkedin.com/in/vitor-nunes-44ba3914a/" target="_blank"><img src="./image/sociallinkedin_member_2751.ico" alt="linkedin"></a>
-                        <a href="https://www.linkedin.com/in/vitor-nunes-44ba3914a/" target="_blank"><p>Linkedin</p></a>
-                    </div>
-                    <div class="card-link">
-                        <a href="https://github.com/vihtornunes" target="_blank"><img src="./image/github_original_wordmark_logo_icon_146506.ico" alt="github"></a>
-                        <a href="https://github.com/vihtornunes" target="_blank"><p>Github</p></a>
-                    </div>
-                    <div class="card-link">
-                        <a href="./image/CV_vitornunes.pdf" download="curriculo-vitornunes.pdf" type="application/pdf"><img src="./image/curriculum_vitae_paper_document_icon_219507.ico" alt="curriculo"></a>
-                        <a href="./image/CV_vitornunes.pdf" download="curriculo-vitornunes.pdf" type="application/pdf"><p>Curriculo</p></a>
-                    </div>
-                </div>
-                
-        </footer>
-
-        <script src="./script.js"></script>
 </body>
-
 </html>
